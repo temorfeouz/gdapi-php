@@ -8,7 +8,9 @@
             "email": "admin@leolabs.org"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.3"
+    },
     "autoload": {
         "files": [
             "init.php"
