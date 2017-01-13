@@ -12,6 +12,9 @@
     "autoload": {
         "files": [
             "init.php"
-        ]
+        ],
+        "psr-4": {
+            "Leolabs\\GoDaddy\\": "class/"
+        }
     }
 }
