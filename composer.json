@@ -8,6 +8,7 @@
             "email": "admin@leolabs.org"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.3"
     },
