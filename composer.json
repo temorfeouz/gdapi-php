@@ -13,8 +13,8 @@
         "php": ">=5.3"
     },
     "autoload": {
-        "files": [
-            "init.php"
+        "classmap": [
+            "class/"
         ],
         "psr-4": {
             "GDAPI\\": "class/"
