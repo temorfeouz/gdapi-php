@@ -50,8 +50,8 @@ class CurlRequest implements RequestInterface
 
     $curl_opt = array(
       CURLOPT_USERAGENT       => static::getUserAgent(),
-      CURLOPT_SSL_VERIFYPEER  => ($o['verify_ssl']       !== false ),
-      CURLOPT_SSL_VERIFYHOST  => ($o['verify_ssl']       !== false ),
+      CURLOPT_SSL_VERIFYPEER  =>2,
+      CURLOPT_SSL_VERIFYHOST  => 2,
       CURLOPT_FOLLOWLOCATION  => ($o['follow_redirects'] !== false ),
       CURLOPT_MAXREDIRS       =>  $o['max_redirects'],
     );
