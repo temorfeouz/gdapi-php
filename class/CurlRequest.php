@@ -165,7 +165,7 @@ class CurlRequest implements RequestInterface
 
   public function request($method, $path, $qs=array(), $body=null, $content_type=false)
   {
-    $o = &$this->client->getOptions();
+    $o = $this->client->getOptions();
     $method = strtoupper($method);
 
     curl_setopt($this->curl, CURLOPT_HEADER, $o['stream_output'] === false );
