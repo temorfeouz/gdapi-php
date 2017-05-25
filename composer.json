@@ -1,11 +1,11 @@
 {
-    "name": "leolabs/gdapi-php",
+    "name": "temorfeouz/gdapi-php",
     "description": "Fork of GoDaddy PHP Library for Composer",
     "type": "library",
     "authors": [
         {
-            "name": "Leo Bernard",
-            "email": "admin@leolabs.org"
+            "name": "Temorfeouz",
+            "email": "sss"
         }
     ],
     "minimum-stability": "stable",
