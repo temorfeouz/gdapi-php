@@ -102,7 +102,7 @@ class CurlRequest implements RequestInterface
         $curl_opt[CURLOPT_SSLKEYPASSWD] = $o['client_cert_pass'];
       }
     }
-dd($curl_opt);
+    
     curl_setopt_array($this->curl, $curl_opt);
   }
 
